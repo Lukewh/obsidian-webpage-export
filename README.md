@@ -7,14 +7,56 @@ Webpage HTML Export is a plugin for Obsidian which lets you export single files 
 ## Features:
 - Export files, folders, or the whole vault as html
 - Export each document as a single .html file for document sharing
-- Export with embedded content exported externally for fast loading on the web
-- Table of contents
+- Or export with embedded content exported externally for fast loading on the web
+- Note table of contents / outline
+- Vault explorer
 - Theme Toggle
-- Graph View (Experimental)
+- Interactive Graph View (Experimental)
 
-## This README is currently under rennovations. More to come soon :)
+## Installation
 
-## Coffee
+Install from Obsidian Community Plugins: [Open in Obsidian](https://obsidian.md/plugins?id=webpage-html-export)
+
+### Manual Installation
+
+1. Download the `.zip` file from the [Latest Release](https://github.com/KosmosisDire/obsidian-webpage-export/releases/latest), or from any other release version.
+2. Unzip into: `{VaultFolder}/.obsidian/plugins/`
+3. Reload obsidian
+
+## Using the Plugin
+- To export a single file or folder, right click on the file or open the more-options menu for the file and select "Export to HTML".
+- If you are exporting to a website please choose the "Multi-File Website" preset.
+- If you are sharing a small number of files to be opened locally on a user's machine select the "Self-contained Documents" option.
+- To further configure the export click the settings button on the bottom right of the export modal.
+- When you are ready select "Export"
+- Select a folder to export into. If you are exporting a folder or vault it is preferable that this folder is empty.
+- Wait for the export to finish and do not minimize both obsidian and the export window simulateously or the export will pause.
+- Congrats on your exported files!
+
+## FAQ
+
+> Q: Can I run this from the command line?
+>
+> A: Not yet. However a command line / CLI feature is planned. Contribute to the disscussion [here](https://github.com/KosmosisDire/obsidian-webpage-export/issues/49)
+
+> Q: Why am I getting a fatal error that ":has" is not a valid selector?
+> 
+> A: You need to update obsidian to the latest version by downloading the new installed from obsidian's website.
+
+> Q: Why won't the graph view load?
+> 
+> A: The graph view does not work if you are opening the files locally, you must host them on a web server.
+
+> Q: Why are my pages loading so slow when hosted on a web server?
+> 
+> A: Make sure you select the "Multi-file Website" preset, or disable all the media inlining options in the settings.
+
+## Contributing
+
+Only start work on features which have an issue created for them and have been accepted by me!
+Contributiong guide coming soon.
+
+## Support This Plugin
 
 This plugin takes a lot of work to maintain and continue adding features. If you want to fund the continued development of this plugin you can do so here:
 
